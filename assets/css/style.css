@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+}
+
+.text-center {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+.navbar{
+    margin:15px;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+.navbar-brand {
+    color: #FFFFFF; 
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #FFFFFF; 
+}
+
+#quienes-somos h2,
+#quienes-somos p {
+    color: #FFFFFF;
+    font-weight: 200;
+}
+
+#quienes-somos {
+    margin: 30px; /* Margen de 30px en todos los lados */
+}
+
+/* Estilos para los iconos */
+.icon-container {
+    text-align: center;/* Centra contenido del contenedor */
+    background-color: rgb(9,200,238);
+    padding: 10px; /* Espacio alrededor del icono */
+    margin-bottom: 10px; /* Espacio entre los iconos y los textos */
+}
+
+.card-img-top {
+    height: 150px; /*altura deseada para las imágenes */
+    object-fit: cover; /* Escala la imagen para cubrir todo el contenedor */
+}
+
+.card {
+    background-color: rgb(9,200,238);
+    border: 1px solid #FFFFFF; /*borde blanco de 1px alrededor de las cartas */
+}
+
+.card-body {
+    color: #FFFFFF; 
+}
+
+.fa-solid {
+    color:#FFFFFF;
+}
+
+#contacto {
+    margin: 100px;
+    color:#FFFFFF;
+}
+
+.btn-enviar {
+    background-color: rgb(9,200,238);
+    color: #FFFFFF; 
+    border: none; /* Sin borde */
+    padding: 10px 20px; 
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+.btn-enviar:hover {
+    background-color:#6EC8E6;
+}
